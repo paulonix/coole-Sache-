@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+body{
+background-image: url('bit.jpg');
+position: relative;
+right: -20%;
+
+}
+button{
+  /* Nicht verschieben, sonst wirkt der Button verschoben/abgeschnitten */
+  /* position: relative;
+  top: -60%;
+  right: -20%; */
+
+  width: 289px;       /* feste Breite */
+  padding: 13px 26px; /* mehr Platz innen */
+  margin-top: 650px;  /* weiter nach unten schieben */
+  margin-left: -50px; /* weiter nach rechts schieben */
+  border: none; /* schwarzer Rand */
+}
+
+
+</style>
+
+
+<script>
+function openWin()
+{
+myWindow=window.open("","","width=200,height=100");
+myWindow.document.write("<p>LOL GET TROLLED</p>");
+}
+
+</script>
+<button style=" background-color: rgb(100, 9, 248);color: white;"    onclick="openWin()">Take My back to safety</button>
+
+
+</body>
+</html>
